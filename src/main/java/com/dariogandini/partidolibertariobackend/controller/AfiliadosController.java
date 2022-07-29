@@ -1,9 +1,6 @@
-package com.dariogandini.portfolio.controller;
+package com.dariogandini.partidolibertariobackend.controller;
 
 import java.util.List;
-
-import com.dariogandini.portfolio.model.Afiliados;
-import com.dariogandini.portfolio.repository.AfiliadosRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +12,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.dariogandini.partidolibertariobackend.model.Afiliados;
+import com.dariogandini.partidolibertariobackend.repository.AfiliadosRepository;
 
 @CrossOrigin(origins = {"https://partidolibertariocorrientes.firebaseapp.com",
 "https://partidolibertariocorrientes.web.app"})

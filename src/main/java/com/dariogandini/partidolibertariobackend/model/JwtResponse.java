@@ -1,4 +1,4 @@
-package com.dariogandini.portfolio.model;
+package com.dariogandini.partidolibertariobackend.model;
 
 import java.io.Serializable;
 

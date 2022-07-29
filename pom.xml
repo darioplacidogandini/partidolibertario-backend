@@ -9,7 +9,7 @@
 		<relativePath/> 
 	</parent>
 	<groupId>com.dariogandini</groupId>
-	<artifactId>portfolio</artifactId>
+	<artifactId>partidolibertario-backend</artifactId>
 	<version>0.1</version>
 	<name>portfolio</name>
 	<description>Proyecto Final Arg Programa</description>

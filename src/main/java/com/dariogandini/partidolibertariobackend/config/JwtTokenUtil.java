@@ -1,4 +1,4 @@
-package com.dariogandini.portfolio.config;
+package com.dariogandini.partidolibertariobackend.config;
 
 import java.io.Serializable;
 import java.util.Date;

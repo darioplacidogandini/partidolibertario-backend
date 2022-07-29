@@ -1,4 +1,4 @@
-package com.dariogandini.portfolio.config;
+package com.dariogandini.partidolibertariobackend.config;
 
 import java.io.IOException;
 
@@ -15,7 +15,7 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.dariogandini.portfolio.service.JwtUserDetailsService;
+import com.dariogandini.partidolibertariobackend.service.JwtUserDetailsService;
 
 import io.jsonwebtoken.ExpiredJwtException;
 

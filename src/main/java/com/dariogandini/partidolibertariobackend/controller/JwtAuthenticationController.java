@@ -1,4 +1,4 @@
-package com.dariogandini.portfolio.controller;
+package com.dariogandini.partidolibertariobackend.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -12,12 +12,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import com.dariogandini.portfolio.service.JwtUserDetailsService;
 
-
-import com.dariogandini.portfolio.config.JwtTokenUtil;
-import com.dariogandini.portfolio.model.JwtRequest;
-import com.dariogandini.portfolio.model.JwtResponse;
+import com.dariogandini.partidolibertariobackend.config.JwtTokenUtil;
+import com.dariogandini.partidolibertariobackend.model.JwtRequest;
+import com.dariogandini.partidolibertariobackend.model.JwtResponse;
+import com.dariogandini.partidolibertariobackend.service.JwtUserDetailsService;
 
 @RestController
 @CrossOrigin
