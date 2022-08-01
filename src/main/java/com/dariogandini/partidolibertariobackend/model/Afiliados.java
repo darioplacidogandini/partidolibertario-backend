@@ -23,6 +23,8 @@ public class Afiliados {
     private String telefono;
     private String observaciones;
 
+    public Afiliados() {}
+
     public Afiliados(long id, String nombre, String apellido, String dni, String circuito, String mail, String telefono,
             String observaciones) {
         this.id = id;
